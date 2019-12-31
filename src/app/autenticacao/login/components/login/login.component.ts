@@ -33,7 +33,9 @@ export class LoginComponent implements OnInit {
       this.snackBar.open('Dados inválidos', 'Erro');
       return;
     }
-    alert(JSON.stringify(this.form.value));
+    const login: Login = this.form.value;
+    alert('Email:' + login.email + ', senha: ' + login.senha);
+
   }
 
 }
