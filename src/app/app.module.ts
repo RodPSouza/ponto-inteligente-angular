@@ -7,7 +7,7 @@ import { MatButtonModule } from '@angular/material';
 import { AppComponent } from './app.component';
 
 import { LoginModule, LoginRoutingModule, CadastroPjModule, CadastroPjRoutingModule } from './autenticacao';
-import { AppRoutingModule } from './app.routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
