@@ -5,7 +5,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { MatButtonModule, MatButtonModule, MatListModule, MatTooltipModule, MatIconModule, MatSnackBarModule} from '@angular/material';
+import { MatInputModule, MatButtonModule, MatListModule, MatTooltipModule, MatIconModule, MatSnackBarModule} from '@angular/material';
 
 import { CadastrarPjComponent, CadastroPjComponent } from './components';
 
